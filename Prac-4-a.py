@@ -1,5 +1,4 @@
-print("Name - Pritesh Tayade - Roll No 15")
-print("Conditional Probability")
+#Implement Conditional Probability and Joint Probability using Python.
 
 pofB = float(input("Enter number of C programmers in percentage "))
 pofAandB = float(input("Enter number of C and Java programmers in percentage "))

@@ -1,5 +1,6 @@
+#Write an application to implement BFS and DFS algorithm.
 # DFS algorithm in Python
-print("Name - Pritesh Tayade - Roll No 15")
+
 # DFS algorithm
 def dfs(graph, start, visited=None):
     if visited is None:

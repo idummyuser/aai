@@ -1,5 +1,5 @@
 #Design a Fuzzy based application using Python
-print("Name - Pritesh Tayade - Roll No 15")
+
 from decimal import ROUND_FLOOR
 
 elt = ['w','x','y','z']

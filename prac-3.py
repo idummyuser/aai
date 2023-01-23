@@ -1,3 +1,5 @@
+#Implement Bayes Theorem using Python.
+
 def drug_user(
   prob_th=0.8,
   sensitivity=0.79,
@@ -6,7 +8,6 @@ def drug_user(
   verbose=True):
 
   #Compuets the posterior using Baye's rule
-  print("Name - Pritesh Tayade - Roll No 15")
 
   p_user = prevelance
   p_non_user = 1 - prevelance

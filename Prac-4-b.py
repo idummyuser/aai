@@ -1,5 +1,4 @@
-print("Name - Pritesh Tayade - Roll No 15")
-print("Joint Probability")
+#Joint Probability
 
 cardnumber = input("Enter number of Card ")
 cardcolor = input("Enter color of Card ")

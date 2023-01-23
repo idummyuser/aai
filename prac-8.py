@@ -1,7 +1,6 @@
-
+#Write an application to implement BFS and DFS algorithm.
 #BFS algorithm
 import collections
-print("Name - Pritesh Tayade - Roll No 15")
 def bfs(graph, root):
 
     visited, queue = set(), collections.deque([root])

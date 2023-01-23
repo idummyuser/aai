@@ -1,3 +1,6 @@
+#Write an application to simulate supervised and un-supervised learning model.
+#supervised model
+
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -7,10 +10,10 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import confusion_matrix
 import seaborn as sns
-print("Name - Pritesh Tayade - Roll No 15")
+
 print("Supervised Learning Model")
 #Importing the datasets
-dataset = pd.read_csv(r"C:\Workspace\un-org\MScIT\Part-II-2022-23\Sem-3\Applied-Artificial-Intelligence\pracs\Pritesh\AIPracsProject\iris.csv")
+dataset = pd.read_csv(r"iris.csv")
 dataset.describe()
 
 #Splitting the dataset into the Training set and test set
